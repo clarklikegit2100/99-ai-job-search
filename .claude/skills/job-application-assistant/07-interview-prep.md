@@ -2,112 +2,104 @@
 framework_version: 1.0.0
 ---
 
-# Interview Preparation Guide
-
-<!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
+# Interview Preparation — Jian Zhao
 
 ## STAR Format
 
-Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome).
-
-Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
+Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome). Keep to 1–2 minutes. End with what you learned.
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. EMMA Healthcare Assistant — Temple University (LLM / RAG / Healthcare AI)
+**S:** Temple's public health team needed a tool to connect postpartum-depression patients with locally relevant mental health resources — a fragmented landscape where patients often couldn't navigate to the right services.
+**T:** As the AI research scientist on the project, I was responsible for the full system design and implementation of an LLM-based conversational assistant.
+**A:** Built EMMA using LLaMA and ChatGPT with PEFT (parameter-efficient fine-tuning) for domain adaptation, RAG with Milvus and Neo4j for knowledge retrieval, and Flowise for workflow orchestration. Front-end via Gradio and Streamlit for clinical staff to interact with. Designed the data pipeline from EHR sources, environmental data, and public health repositories.
+**R:** Delivered a working prototype used in the research setting; contributed to manuscripts and grant proposals for continued funding. The system demonstrated how LLM + RAG architecture can serve healthcare navigation tasks with locally-grounded knowledge.
+**Use for:** "Tell me about an LLM/RAG project you built," "Healthcare AI experience," "Full-stack AI system design"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+---
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Biomedical Cell Tracking — Delaware State University (GNN / Computer Vision)
+**S:** Biomedical researchers at DSU needed automated tools to segment, track, and quantify cells in microscopy images — a labor-intensive manual process that limited experiment throughput.
+**T:** As PhD researcher, I led the development of CNN/GNN-based approaches for automated cell segmentation, tracking, and quantification.
+**A:** Applied CNNs for image segmentation (watershed methods, diffusion-tensor imaging concepts), developed GNN architectures to model cell relationships across time frames, and built a rapid-tuning approach for CSTQ parameters to make workflows reproducible and accessible to domain scientists without deep ML expertise.
+**R:** Produced a rapid-tuning framework that supports reproducible biomedical image-analysis workflows; work contributed to PhD research output and disease-research applications. Demonstrates practical ML deployment in a specialized scientific domain.
+**Use for:** "Graph neural network experience," "Computer vision research," "Tell me about your PhD research"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+---
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 3. HPC Cluster Build and Research — Delaware State University (Infrastructure / Scale)
+**S:** The nano-bio spectroscopy research group at DSU had no dedicated compute infrastructure for large-scale plasma and molecular simulations, limiting the scope and speed of experiments.
+**T:** As graduate research assistant, I was responsible for procuring, building, and administering the group's research HPC cluster.
+**A:** Designed and built a cluster with 1 head node, 8 compute nodes, 320 CPUs, and 512 GB RAM. Configured job scheduling, LUSTRE distributed storage, and inter-node MPI communication. Ran large-scale OSIRIS and GROMACS simulations in collaborations with Princeton, UCLA, and Lawrence Livermore National Laboratory.
+**R:** Enabled research collaborations with three national-caliber institutions. The cluster supported several years of simulation research that would not have been feasible on shared university resources.
+**Use for:** "Experience with large-scale computation," "Infrastructure for research," "Cross-institution collaboration"
+
+---
+
+### 4. Hypertension Prediction ML — Temple University (Healthcare ML / Analytics)
+**S:** Public health researchers at Temple had ambulatory-visit data from a diverse patient population and suspected significant gaps in blood-pressure and A1C monitoring, but lacked a systematic way to identify and quantify these gaps.
+**T:** I was responsible for the ML modeling and analysis to surface these patterns and build predictive models.
+**A:** Applied Random Forest, XGBoost, and SVM to the ambulatory-visit dataset. Designed the feature engineering pipeline, ran model comparison experiments, and produced interpretable outputs that could inform clinical recommendations.
+**R:** Identified concrete monitoring gaps in the patient population; results contributed to research manuscripts and grant proposals for continued public health research.
+**Use for:** "Healthcare data analysis," "Applied ML experience," "Clinical ML without PhD publications yet"
+
+---
+
+### 5. PetroChina Energy Forecasting — Industry ML Before Academia (Business Impact)
+**S:** PetroChina's planning institute needed accurate energy-consumption forecasting for natural-gas pipeline operations to support strategic capacity planning.
+**T:** As senior software engineer, I was asked to build an ML-based forecasting system to replace manual estimation methods.
+**A:** Developed BP neural-network and decision-tree models (using MATLAB, Java, SQL, and Weka) trained on historical pipeline operational data. Built and validated an M/M/C queuing model for vehicle fleet allocation optimization alongside the forecasting models.
+**R:** Achieved approximately 90% forecasting accuracy on the test set, significantly above the manual baseline. The model was used for strategic planning analyses across the institute.
+**Use for:** "You have industry ML experience before your PhD," "How does your industry background inform your research?"
+
+---
+
+## STAR Candidates (Complete Manually)
+
+### Publications and Manuscripts
+**Source:** Temple University research (2023–2025) — contributed to manuscripts
+**What happened:** Participated in writing research results from EMMA and hypertension research
+**Why it matters:** Demonstrates research writing, scientific rigor, contribution to the academic record
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: (add specific paper titles, venues, and your contribution)
+
+---
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Your PhD is from Delaware State — how does that compare to stronger research programs?"
+> The credential that matters for my positioning is Tsinghua University for my M.E. — a top-3 university in China — alongside two U.S. master's and a U.S. Ph.D. More importantly, the work speaks for itself: multi-institution HPC collaborations with Princeton, UCLA, and Lawrence Livermore; a healthcare AI system built and deployed at Temple; and industry experience shipping production software at PetroChina. I'm positioned as an interdisciplinary AI researcher with engineering depth, not as a traditional academic.
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "You have an H-1B — does that create risk for us?"
+> H-1B transfer is a straightforward process that takes 2–4 weeks for a premium processing petition. Many top AI research companies regularly sponsor H-1B transfers. I've done this before and it's a standard transition. Happy to walk through the specifics of how it works.
 
-### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+### "Your experience spans a lot of domains — what do you actually specialize in?"
+> The through-line is AI for complex systems with real-world constraints — specifically biomedical AI and healthcare NLP. Whether it's GNNs for cell tracking, LLMs for postpartum-depression support, or ML for clinical monitoring gaps, the application domain is healthcare and life sciences. The breadth in CV/HPC is a toolset that came from the research, not a lack of focus.
 
-### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+### "Why did you go back to PhD after 10+ years in industry?"
+> I had always wanted to work on AI research problems with real scientific depth. After building production software at PetroChina and CAS, I came to the U.S. specifically to pursue research at the frontier of biomedical AI and machine learning. The combination of industry and research is intentional — I can build things that actually work, not just publish theoretical results.
 
-### "Why this company specifically?"
-> Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.
+---
 
-## Questions You Should Ask Interviewers
+## Questions to Ask Interviewers
 
-### About the Role
-- "What does a typical week look like in this role?"
-- "What would success look like in the first 6 months?"
-- "What's the biggest challenge the team is facing right now?"
+### Role / Team
+- What does the research-to-production pipeline look like for applied scientists here?
+- How does the team balance publications/research with product delivery?
+- What are the most important ML problems the team is working on in the next 12 months?
 
-### About the Team
-- "How big is the team, and how do you divide work?"
-- "What does the development/project lifecycle look like, from idea to production?"
-- "How do you onboard new team members?"
+### Culture / Growth
+- How are applied scientists and engineers expected to collaborate?
+- What does mentorship and career development look like for research-track roles?
+- Does the company sponsor H-1B / green card for international employees?
 
-### About Tech & Growth
-- "What's your current tech stack for [relevant area]?"
-- "Is there room to grow into more architectural or strategic decisions?"
-- "How does the team stay current with new tools and methods?"
+### Domain
+- What clinical or healthcare data does the team have access to?
+- How does the organization handle data privacy and IRB considerations for research?
 
-### About Culture (use these to prevent disappointment)
-- "How would you describe the team culture?"
-- "What does professional development look like here?"
-- "Is there flexibility for remote/hybrid work?"
-- "What's the balance between development/new projects and maintenance work?"
-- "How would you describe the leadership style in this team?"
-- "What do people who thrive here have in common?"
-
-## Phone/Video Interview Tips
-- Have STAR examples written out (use this file)
-- Keep a glass of water nearby
-- Smile when speaking (it changes your tone)
-- Ask for clarification if a question is vague
-- It's OK to take 5 seconds to think before answering
-- End with: "Is there anything else you'd like to know about my background?"
-
-## After the Application (Best Practice)
-
-### Follow-Up Etiquette
-- **Don't call to "stand out"** or to learn more about the role post-submission - this risks a negative impression
-- If the employer specified a timeline, respect it and wait
-- If no timeline was given and significant time has passed (2+ weeks), a brief call to ask about status is acceptable
-- If you have genuinely new, relevant information to share, a short follow-up is fine
-
-### Thank-You Notes
-- When you receive any update (interview invitation, rejection, or status update), send a brief thank-you message
-- Express appreciation for their time and the process
-- Keep it short (2-3 sentences)
-
-## Roleplay Guidelines
-When the user asks for interview practice:
-1. Ask which role/company to simulate
-2. Start with easy warm-up questions ("Tell me about yourself")
-3. Progress to role-specific technical questions
-4. Include 1-2 behavioral questions using the competencies from the job posting
-5. End with a tough question or curveball
-6. After each answer, give brief feedback: what worked, what to sharpen
-7. Suggest which STAR example would work best for each question
+## Salary Expectations
+Target: $150,000–$200,000 base depending on role level (Research Scientist vs. Senior / Staff). Total compensation including equity/bonus: $180,000+. Flexible for the right research environment.

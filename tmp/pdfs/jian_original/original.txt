@@ -1,0 +1,131 @@
+                                       Jian Zhao Philadelphia, PA
+                       MOBILE-ANDROID-ALT 302-359-7657 • 🖂 zhaojianphd@gmail.com • LinkedIn
+
+AI researcher and software engineer with Tsinghua University graduate training, U.S. master’s and Ph.D. research,
+and 10+ years across biomedical AI, graph learning, computer vision, LLM applications, HPC, and enterprise systems.
+Combines rigorous interdisciplinary research in healthcare and life sciences with production software engineering
+experience, multi-institution collaboration (Princeton, UCLA, Lawrence Livermore), and hands-on implementation in
+Python and PyTorch. H-1B transfer available.
+
+Core Competencies
+🟤 Generative AI & LLMs: LLaMA, ChatGPT API, Hugging Face Transformers, PEFT (LoRA/QLoRA), Retrieval-
+  Augmented Generation (RAG), prompt engineering, healthcare conversational AI; Milvus, Pinecone, Neo4j for
+  vector and graph retrieval
+🟤 Deep Learning & Graph ML: PyTorch, TensorFlow, Scikit-learn, PyTorch Geometric; CNNs, Graph Neural
+  Networks (GNN), temporal GNN, representation learning; biomedical cell segmentation and tracking, computer
+  vision, object detection
+🟤 Healthcare AI & Biomedical Research: Clinical NLP, EHR data pipelines, public health analytics; biomedical
+  image analysis (microscopy, cell tracking, segmentation); XGBoost, Random Forest, SVM for clinical ML; EMMA
+  healthcare assistant (LLM/RAG, postpartum-depression support)
+🟤 HPC & Scientific Computing: MPI, MPI I/O, OpenMP, GPU computing; OSIRIS and GROMACS for plasma
+  and molecular simulation; HPC cluster administration (320 CPU / 512 GB); LUSTRE, Hadoop distributed storage
+🟤 Engineering & Systems: Python (expert), Java (advanced), C++, C#, MATLAB, R, SQL; PostgreSQL, Oracle,
+  MySQL; Docker, Git, Linux; Apache Tomcat, PHP, WordPress; enterprise software architecture and delivery
+
+Professional and Research Experience
+    Temple University, College of Public Health                                                     Philadelphia, PA
+🟤
+    Assistant Research Scientist                                                                   Oct 2023–Apr 2025
+    - Developed EMMA, an LLM-based conversational assistant for postpartum-depression support using LLaMA/Chat-
+      GPT, RAG, PEFT, Milvus, Neo4j, Flowise, Gradio, and Streamlit to match users with locally relevant mental-health
+      resources
+    - Applied Random Forest, XGBoost, and SVM to ambulatory-visit and public-health datasets to identify monitoring
+      gaps in blood-pressure and A1C tracking and support hypertension-prediction research
+    - Designed data and AI workflows spanning electronic health records, environmental sensors, and public-health
+      repositories; contributed research results, manuscripts, grant proposals, and technical documentation
+    - Collaborated with faculty, clinicians, research staff, and community partners; co-supervised undergraduate and
+      graduate researchers alongside the principal investigator
+    Delaware State University                                                                          Dover, DE
+🟤
+    PhD Research Assistant                                                                      Aug 2019–Present
+    - Researching biomedical cell segmentation, tracking, and quantification using mathematical algorithms, image
+      processing, CNNs, GNNs, and LLM-assisted parameter tuning for microscopy applications
+    - Developed a rapid-tuning approach for CSTQ parameters to support reproducible biomedical image-analysis
+      workflows and disease-research applications
+    - Conducting large-scale nano-bio spectroscopy and plasma simulations using MPI, MPI I/O, OpenMP, GPU
+      computing, OSIRIS, and GROMACS in multi-institution collaborations with Princeton University, UCLA, and
+      Lawrence Livermore National Laboratory
+
+
+
+
+                                                                                                               1/2
+    Delaware State University                                                                                  Dover, DE
+🟤
+    Graduate Research Assistant                                                                        Aug 2016–Jul 2019
+    - Built and administered an HPC research cluster (1 head node, 8 compute nodes, 320 CPUs, 512 GB RAM) for
+      nano-bio spectroscopy simulations and data-intensive experiments
+    - Completed machine-learning projects in pattern recognition and dimensionality reduction (PCA, LDA, LLE) using
+      TensorFlow and Scikit-learn
+    - Investigated wireless insulin-pump security vulnerabilities and proposed a visible-light-communication access-control
+      scheme using IoT prototypes
+    PetroChina Planning & Engineering Institute                                                       Beijing, China
+🟤
+    Senior Software Engineer                                                                      Aug 2007–Jul 2016
+    - Developed BP neural-network and decision-tree models for natural-gas pipeline energy-consumption forecasting,
+      achieving approximately 90% accuracy for strategic planning analyses
+    - Built and validated an M/M/C queuing model to optimize compressed-natural-gas vehicle allocation across varying
+      fleet sizes
+    - Managed project delivery and resolved technical issues across analytics and enterprise software initiatives using
+      MATLAB, Java, SQL, Weka, and statistical modeling
+    Chinese Academy of Sciences                                                                    Beijing, China
+🟤
+    Project Manager                                                                            Aug 2005–Jul 2007
+    - Led a five-person team on a Sino-German national forest-pest-control information-system project, delivering a
+      scalable B/S application for the National Forestry program
+    - Modernized the Forest News application from ASP to JSP and migrated the database from Access to Oracle 9i
+      using Java, Spring, Hibernate, Struts, JUnit, and GIS technologies
+
+Selected Research and Technical Projects
+🟤 EMMA Healthcare Assistant: LLM and RAG application for postpartum-depression support using LLaMA,
+    ChatGPT, PEFT, Milvus, Neo4j, Hugging Face, Flowise, Gradio, and Streamlit.
+🟤 Biomedical Cell Tracking: CNN/GNN and image-processing pipeline for cell segmentation, tracking, and
+    quantification including watershed methods and diffusion-tensor imaging concepts.
+🟤 Ambulatory Health Analytics: ML modeling of patient visits to identify blood-pressure and A1C monitoring
+    gaps; hypertension-prediction research using ensemble methods.
+🟤 HPC Nano-Bio Simulation: Parallel spectroscopy and plasma simulation using MPI, OpenMP, GPU computing,
+    OSIRIS, GROMACS, and distributed storage (LUSTRE, Hadoop).
+
+Education
+    Delaware State University                                                                            Dover, DE
+🟤
+    Ph.D. Candidate, Applied Mathematics and Mathematical Physics                           Aug 2019–Expected 2026
+    In progress; expected completion 2026. GPA: 3.89. Research: biomedical AI, graph neural networks, HPC simulation.
+    Delaware State University                                                                               Dover, DE
+🟤
+    M.S., Computer and Information Sciences                                                           Aug 2016–Jul 2019
+    GPA: 3.9. Machine learning, pattern recognition, HPC cluster administration.
+
+
+
+
+                                                                                                                    2/2
+    Tsinghua University                                                                          Beijing, China
+🟤
+    M.E., Software Engineering                                                                        2003–2005
+    GPA: 3.3. Software architecture, enterprise systems, project management.
+    Dalian University of Technology                                                              Dalian, China
+🟤
+    B.E., Ocean Engineering; Minor in Computer Science                                              1998–2002
+    Engineering fundamentals, applied mathematics, computer science.
+
+Languages
+🟤 English (professional working proficiency), Chinese/Mandarin (native).
+
+Publications
+🟤 Manuscripts contributed during Temple University research (2023–2025) — titles and venues to be confirmed.
+🟤 Ph.D. research outputs in biomedical cell tracking and image analysis — titles and venues to be confirmed.
+
+Additional
+🟤 Work Authorization: H-1B transfer available.
+🟤 Research Positioning: Biomedical AI, graph machine learning, computer vision, LLM applications, and high-
+    performance computing.
+
+References
+🟤 Available upon request.
+
+
+
+
+                                                                                                         3/2
+

@@ -1,0 +1,629 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "",
+    "size": 80,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0.5)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Jian Zhao",
+    "headline": "AI researcher and software engineer with Tsinghua University graduate training, U.S. master’s and Ph.D. research, and 10+ years spanning biomedical AI, graph learning, computer vision, LLM applications, HPC, and enterprise systems.",
+    "email": "zhaojianphd@gmail.com",
+    "phone": "302-359-7657",
+    "location": "Philadelphia, PA",
+    "website": {
+      "url": "",
+      "label": ""
+    },
+    "customFields": [
+      {
+        "id": "b2fcb11e-92ef-45ff-96f3-7ffd4afc0197",
+        "icon": "",
+        "text": "LinkedIn",
+        "link": ""
+      }
+    ]
+  },
+  "summary": {
+    "title": "",
+    "icon": "article",
+    "columns": 1,
+    "hidden": false,
+    "keepTogether": false,
+    "startOnNewPage": false,
+    "content": "<p>Combines interdisciplinary healthcare research with production software engineering, multi-institution collaboration, and hands-on Python and PyTorch development.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "",
+      "icon": "messenger-logo",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "experience": {
+      "title": "Professional and Research Experience",
+      "icon": "briefcase",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "48e337e6-a0c7-4f7f-b7e6-e4649a1dd4e6",
+          "hidden": false,
+          "company": "Temple University, College of Public Health",
+          "position": "Assistant Research Scientist",
+          "location": "Philadelphia, PA",
+          "period": "Oct 2023–Apr 2025",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li>Developed EMMA, an LLM-based assistant for postpartum-depression support using LLaMA/ChatGPT, RAG, PEFT, Milvus, Neo4j, Flowise, Gradio, and Streamlit to connect users with locally relevant resources</li><li>Applied Random Forest, XGBoost, and SVM to ambulatory-visit and public-health data, identifying blood-pressure and A1C monitoring gaps and supporting hypertension-prediction research</li><li>Designed AI and data workflows spanning EHR, environmental sensors, and public-health repositories; contributed manuscripts, grant proposals, technical documentation, and cross-disciplinary research supervision</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "e2cb3380-cf07-4ea3-803e-d375aecff811",
+          "hidden": false,
+          "company": "Delaware State University",
+          "position": "Ph.D. Research Assistant",
+          "location": "Dover, DE",
+          "period": "Aug 2019–Present",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li>Research biomedical cell segmentation, tracking, and quantification using mathematical algorithms, image processing, CNNs, GNNs, and LLM-assisted parameter tuning for microscopy applications</li><li>Developed a rapid-tuning approach for CSTQ parameters supporting reproducible biomedical image-analysis and disease-research workflows</li><li>Conduct large-scale nano-bio spectroscopy and plasma simulations using MPI, OpenMP, GPU computing, OSIRIS, and GROMACS in collaborations with Princeton, UCLA, and Lawrence Livermore National Laboratory</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "a355f9d2-33ab-4998-bf95-4e2bee4c2ce5",
+          "hidden": false,
+          "company": "Delaware State University",
+          "position": "Graduate Research Assistant",
+          "location": "Dover, DE",
+          "period": "Aug 2016–Jul 2019",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li>Built and administered an HPC research cluster with 8 compute nodes, 320 CPUs, and 512 GB RAM for nano-bio spectroscopy simulations and data-intensive experiments</li><li>Completed ML projects in pattern recognition and dimensionality reduction (PCA, LDA, LLE), and investigated visible-light access control for wireless insulin-pump security</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "a0b0a9a9-c376-4067-890c-4e20c895f243",
+          "hidden": false,
+          "company": "PetroChina Planning & Engineering Institute",
+          "position": "Senior Software Engineer",
+          "location": "Beijing, China",
+          "period": "Aug 2007–Jul 2016",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li>Developed BP neural-network and decision-tree models for natural-gas pipeline energy forecasting, achieving approximately 90% accuracy for strategic planning analyses</li><li>Built an M/M/C vehicle-allocation model and delivered analytics and enterprise software using MATLAB, Java, SQL, Weka, and statistical modeling</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "2af5b115-cd78-4922-96fa-894c1e166f06",
+          "hidden": false,
+          "company": "Chinese Academy of Sciences",
+          "position": "Project Manager",
+          "location": "Beijing, China",
+          "period": "Aug 2005–Jul 2007",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li>Led a five-person Sino-German national forest-pest-control information-system project, delivering a scalable browser/server application for the National Forestry program</li><li>Modernized Forest News from ASP to JSP and migrated Access to Oracle 9i using Java, Spring, Hibernate, Struts, JUnit, and GIS technologies</li></ul>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "icon": "graduation-cap",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "747e3572-bc2e-4b85-98ba-9e8aa1d86ad9",
+          "hidden": false,
+          "school": "Delaware State University",
+          "degree": "Ph.D. Candidate",
+          "area": "Applied Mathematics and Mathematical Physics",
+          "grade": "GPA: 3.89",
+          "location": "Dover, DE",
+          "period": "Aug 2019–May 2027",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Research in biomedical AI, graph neural networks, and HPC simulation.</p>"
+        },
+        {
+          "id": "3693226e-7c96-4e14-9283-5c13d387a563",
+          "hidden": false,
+          "school": "Delaware State University",
+          "degree": "M.S.",
+          "area": "Computer and Information Sciences",
+          "grade": "GPA: 3.9",
+          "location": "Dover, DE",
+          "period": "Aug 2016–Jul 2019",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Machine learning, pattern recognition, and HPC.</p>"
+        },
+        {
+          "id": "c47674cb-8a12-4c75-bbdf-b23cdc508e4b",
+          "hidden": false,
+          "school": "Tsinghua University",
+          "degree": "M.E.",
+          "area": "Software Engineering",
+          "grade": "",
+          "location": "Beijing, China",
+          "period": "2003–2005",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Software architecture, enterprise systems, and project management.</p>"
+        },
+        {
+          "id": "76acb61d-e839-41e6-9c86-7c39d5203a64",
+          "hidden": false,
+          "school": "Dalian University of Technology",
+          "degree": "B.E.",
+          "area": "Ocean Engineering; Minor in Computer Science",
+          "grade": "",
+          "location": "Dalian, China",
+          "period": "1998–2002",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Engineering, applied mathematics, and computer science.</p>"
+        }
+      ]
+    },
+    "projects": {
+      "title": "",
+      "icon": "code-simple",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "skills": {
+      "title": "Core Competencies",
+      "icon": "compass-tool",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "3c0b945d-3052-4d50-b075-b7d269d39cab",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Generative AI & Healthcare NLP",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "LLaMA",
+            "ChatGPT API",
+            "Hugging Face Transformers",
+            "PEFT (LoRA/QLoRA)",
+            "RAG",
+            "prompt engineering",
+            "Milvus",
+            "Pinecone",
+            "Neo4j",
+            "EMMA postpartum-depression support assistant"
+          ]
+        },
+        {
+          "id": "230135f7-4bb7-48fe-8f63-7f778f8f03f2",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Deep Learning & Biomedical Vision",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "Python",
+            "PyTorch",
+            "TensorFlow",
+            "Scikit-learn",
+            "PyTorch Geometric",
+            "CNNs",
+            "GNNs",
+            "representation learning",
+            "microscopy cell segmentation",
+            "tracking",
+            "quantification"
+          ]
+        },
+        {
+          "id": "5e819c03-0578-42a0-bfbe-87df54db3bee",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Machine Learning & Data",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "XGBoost",
+            "Random Forest",
+            "SVM",
+            "clinical and public-health analytics",
+            "EHR workflows",
+            "SQL",
+            "PostgreSQL",
+            "Oracle",
+            "MySQL",
+            "Git",
+            "Linux",
+            "Docker"
+          ]
+        },
+        {
+          "id": "5ec7c963-95df-496d-9247-252d249ed24d",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "HPC & Engineering",
+          "proficiency": "",
+          "level": 0,
+          "keywords": [
+            "MPI",
+            "MPI I/O",
+            "OpenMP",
+            "GPU computing",
+            "OSIRIS",
+            "GROMACS",
+            "LUSTRE",
+            "Hadoop",
+            "Java",
+            "C++",
+            "C#",
+            "MATLAB",
+            "R",
+            "enterprise software architecture and delivery"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "icon": "translate",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "b2e6f29e-149e-427e-8d4e-0ea76b0e8243",
+          "hidden": false,
+          "language": "Chinese/Mandarin",
+          "fluency": "native",
+          "level": 0
+        },
+        {
+          "id": "9cc20efa-aaa4-4dea-aba7-9d5e155d8af5",
+          "hidden": false,
+          "language": "English",
+          "fluency": "professional working proficiency",
+          "level": 0
+        }
+      ]
+    },
+    "interests": {
+      "title": "",
+      "icon": "football",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "awards": {
+      "title": "Honors & Certifications",
+      "icon": "trophy",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "b2c5e7b8-1c73-442b-bcb3-5488d24280ea",
+          "hidden": false,
+          "title": "FIRST LEGO League (FLL) Certified Judge",
+          "awarder": "",
+          "date": "March 2020",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Judge Training and Robot Design Judge Training</p>"
+        },
+        {
+          "id": "0d1f9810-44c8-4e50-b125-431e1a63e6d0",
+          "hidden": false,
+          "title": "CITI Program, Responsible Conduct of Research for Engineers",
+          "awarder": "Delaware State University",
+          "date": "Jan. 2018",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "83249caf-9c21-44fc-9c3c-15496ac0a68c",
+          "hidden": false,
+          "title": "Vice President, Science & Technology Association",
+          "awarder": "Tsinghua University School of Software",
+          "date": "2003–2005",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "485789aa-37bb-4e38-9422-ed453470d5f4",
+          "hidden": false,
+          "title": "Top 20% academic ranking, M.E. program",
+          "awarder": "Tsinghua University",
+          "date": "",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "certifications": {
+      "title": "",
+      "icon": "certificate",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "publications": {
+      "title": "Selected Publications",
+      "icon": "books",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "9d24517b-9cc7-4f8b-b3fe-bfb83e94598c",
+          "hidden": false,
+          "title": "A Visible Light Channel based Access Control Scheme for Wireless Insulin Pump Systems",
+          "publisher": "Proc. IEEE ICC",
+          "date": "2018",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "J. Zhao, K. Kong, X. Hei, Y. Tu, X. Du"
+        },
+        {
+          "id": "a6618899-6562-4225-a616-f3f66e7e2b34",
+          "hidden": false,
+          "title": "Simulated Raman Spectral Analysis of Organic Molecules",
+          "publisher": "Proc. SPIE 10526, 105262I",
+          "date": "2018",
+          "website": {
+            "url": "https://doi.org/10.1117/12.2291176",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "J. Zhao, L. Lu, Z. Tyler, K. Kong, Q. Lu, J. Ren"
+        },
+        {
+          "id": "22283585-4c0e-41cf-9659-4f24e7e0eab6",
+          "hidden": false,
+          "title": "Dark-field Microscopic Study of the Interactions between Gold/Silver Nanoparticles and Giant Unilamellar Vesicles",
+          "publisher": "Proc. SPIE 10506, 105061C",
+          "date": "2018",
+          "website": {
+            "url": "https://doi.org/10.1117/12.2290828",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "A. Bhat, J. Zhao, T. Cooks, J. Ren, Q. Lu"
+        },
+        {
+          "id": "3a80d995-85a0-40af-924a-27b4e0d4ff6e",
+          "hidden": false,
+          "title": "Co-translator, W. van der Aalst & K. van Hee, Workflow Management: Models, Methods, and Systems (Chinese ed.)",
+          "publisher": "Tsinghua Univ. Press",
+          "date": "2004",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "(Supervised by Prof. Jianmin Wang; co-translated with L. Wen et al.)"
+        },
+        {
+          "id": "28d5a37d-a25f-42ae-bbfa-af2c8cfa6769",
+          "hidden": false,
+          "title": "Additional papers in workflow management (colored Petri nets, Tsinghua 2004–2005) and energy-pipeline analytics (PetroChina 2007–2016); full list available on request.",
+          "publisher": "",
+          "date": "",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "",
+      "icon": "hand-heart",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "icon": "phone",
+      "columns": 1,
+      "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "items": [
+        {
+          "id": "a6ffeeb9-1f45-4037-bf7d-b6c75e31fd94",
+          "hidden": false,
+          "name": "Prof. Jun Ren",
+          "position": "Delaware State University",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "phone": "",
+          "description": "jren@desu.edu"
+        },
+        {
+          "id": "6d52d89d-1e91-4419-91c6-3b1aacabbf48",
+          "hidden": false,
+          "name": "Dr. Xiali (Sharon) Hei",
+          "position": "Alfred and Helen M. Lamson Endowed Professor in Computer Science, University of Louisiana at Lafayette",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "phone": "+1-337-482-1037",
+          "description": "xiali.hei@louisiana.edu"
+        }
+      ]
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "onyx",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "profiles",
+            "summary",
+            "education",
+            "experience",
+            "projects",
+            "volunteer",
+            "references"
+          ],
+          "sidebar": [
+            "skills",
+            "certifications",
+            "awards",
+            "languages",
+            "interests",
+            "publications"
+          ]
+        }
+      ]
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 14,
+      "marginY": 12,
+      "format": "a4",
+      "locale": "en-US",
+      "hideLinkUnderline": false,
+      "hideIcons": false,
+      "hideSectionIcons": true
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(220, 38, 38, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400",
+          "500"
+        ],
+        "fontSize": 10,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 14,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": "",
+    "styleRules": [],
+    "stylesheet": {
+      "mode": "legacy",
+      "source": {
+        "languageVersion": 1,
+        "text": "@version 1;\n"
+      },
+      "applied": {
+        "languageVersion": 1,
+        "text": "@version 1;\n"
+      }
+    }
+  }
+}

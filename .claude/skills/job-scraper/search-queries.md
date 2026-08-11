@@ -1,81 +1,121 @@
-# Search Queries for Job Scraper
-
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+# Search Queries for Job Scraper — Jian Zhao
 
 ## Installed portal CLIs (primary for `/scrape`)
 
-`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first.
+Installed CLIs: `linkedin-search` (global), `indeed-search` (US), `freehire-search` (multi-market, tech-focused).
 
-The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
+The `site:` query templates below are **WebSearch fallbacks** for company career pages or when a CLI is rate-limited.
 
-## Search Sites
-
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
-
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+**Sponsorship filter:** When using WebSearch fallbacks, add `"H-1B" OR "visa sponsorship"` to filter results
+to companies more likely to sponsor.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+### Priority 1: AI Research Scientist / Applied Scientist (Healthcare AI / NLP / LLMs)
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+Core target — matches strongest experience and career direction.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+# CLI (linkedin-search)
+-q "AI research scientist healthcare" -l "Philadelphia, PA" --jobage 14
+-q "applied scientist NLP healthcare" -l "Remote" --jobage 14
+-q "research scientist LLM clinical" -l "New York, NY" --jobage 14
+-q "applied scientist machine learning" -l "Philadelphia, PA" --jobage 14
+-q "research scientist biomedical AI" -l "Remote" --jobage 14
+
+# CLI (indeed-search)
+-q "AI research scientist healthcare" -l "Philadelphia, PA" --fromage 14
+-q "applied scientist NLP" -l "Remote" --fromage 14 --remote
+-q "clinical NLP scientist" -l "New York, NY" --fromage 14
+-q "research scientist LLM" -l "Philadelphia, PA" --fromage 14
+
+# WebSearch fallback
+site:linkedin.com/jobs "AI research scientist" "healthcare" ("H-1B" OR "sponsorship") "Philadelphia" OR "remote"
+site:indeed.com "applied scientist" NLP healthcare "visa sponsorship"
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Machine Learning Engineer / AI Engineer (Healthcare / Biomedical)
 
-These match your domain expertise.
-
-```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
-```
-
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+Strong technical match — less research-focused but uses core ML skillset.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+# CLI (linkedin-search)
+-q "machine learning engineer healthcare" -l "Philadelphia, PA" --jobage 14
+-q "AI engineer biomedical" -l "Remote" --jobage 14
+-q "ML engineer NLP clinical" -l "New York, NY" --jobage 14
+-q "senior ML engineer LLM" -l "Remote" --jobage 14
+
+# CLI (indeed-search)
+-q "machine learning engineer healthcare" -l "Philadelphia, PA" --fromage 14
+-q "AI engineer LLM" -l "Remote" --fromage 14 --remote
+-q "senior ML engineer biomedical" -l "New York, NY" --fromage 14
+
+# CLI (freehire-search)
+--query "machine learning healthcare" --remote --country us
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 3: Research Scientist — Graph ML / Computer Vision / GNN
 
-Wider net for general technical roles.
+Matches PhD research directly — niche but high fit.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+# CLI (linkedin-search)
+-q "research scientist graph neural network" -l "Remote" --jobage 14
+-q "computer vision research scientist" -l "Philadelphia, PA" --jobage 14
+-q "graph machine learning scientist" -l "Remote" --jobage 14
+-q "biomedical AI researcher" -l "Remote" --jobage 14
+
+# WebSearch fallback
+site:linkedin.com/jobs "graph neural network" "research scientist" remote
+site:indeed.com "computer vision" "biomedical" "research scientist"
 ```
+
+### Priority 4: Broader AI / Data Science (Adjacent Roles, Wider Net)
+
+```
+# CLI (linkedin-search)
+-q "data scientist healthcare" -l "Philadelphia, PA" --jobage 14
+-q "NLP engineer clinical" -l "Remote" --jobage 14
+-q "AI scientist pharma" -l "Philadelphia, PA" --jobage 14
+-q "computational scientist biomedical" -l "Remote" --jobage 14
+
+# Target company career pages (via WebSearch):
+site:amazon.jobs "applied scientist" NLP OR LLM
+site:jobs.google.com "research scientist" "health"
+site:microsoft.com/en-us/about/careers "research scientist" health AI
+site:careers.pfizer.com "AI scientist" OR "ML scientist"
+site:jobs.ibm.com "research scientist" healthcare NLP
+```
+
+## Target Companies (Known H-1B Sponsors in Healthcare AI)
+
+High priority — known to sponsor H-1B and operate in healthcare AI:
+- **Amazon (AWS Health, Alexa Health):** Applied Scientist, Senior Applied Scientist
+- **Microsoft Research / Health AI:** Research Scientist
+- **Google Health / DeepMind Health:** Research Scientist
+- **IBM Research (Watson Health):** Research Scientist
+- **Tempus AI:** AI Research Scientist
+- **Flatiron Health:** Data Scientist / Research Scientist
+- **Veeva Systems:** ML Engineer
+- **Epic Systems:** AI / NLP Research roles
+- **IQVIA:** AI / Data Scientist
+- **Philips:** AI Research Scientist
+- **GE HealthCare:** AI Scientist
+- **Abridge:** ML Scientist (NLP / clinical notes)
+- **Collate / PathAI / Paige.AI:** Biomedical AI Research
+- **IFM Therapeutics / Recursion Pharma:** AI/ML Research Scientist
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Evaluate results against these tiers:
+- **Ideal:** Philadelphia PA, Delaware, remote (anywhere US)
+- **Acceptable:** NYC metro, Boston, DC area, Pittsburgh
+- **Requires discussion:** Relocation to West Coast (San Francisco, Seattle)
+- **Flag:** Requires in-person only without relocation support
+- **H-1B:** Must always verify sponsorship — use myvisajobs.com or h1bdata.info
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
-
-## Adapting Queries
-
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+Only include jobs posted within the last 14 days, or with deadline not yet passed.
+Flag as "date unknown" if posting date cannot be determined.

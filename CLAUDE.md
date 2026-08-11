@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Jian Zhao
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Jian Zhao, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,70 +10,75 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
-
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Jian Zhao (赵健)
+- **Location:** Philadelphia, PA (open to Philadelphia/Delaware metro, NYC metro, remote)
+- **Phone:** 302-359-7657
+- **Email:** zhaojianphd@gmail.com
+- **LinkedIn:** linkedin.com/in/jian-zhao-12800616a
+- **Languages:** English (professional), Chinese/Mandarin (native)
+- **CV language:** English
+- **Status:** PhD candidate (Expected 2026), actively seeking full-time AI research positions
+- **Work Authorization:** H-1B transfer available — confirm employer sponsorship before applying
+- **LinkedIn headline:** "AI Research Scientist | Biomedical AI · LLMs · Graph Neural Networks | Tsinghua M.S. | U.S. Ph.D. Candidate"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **PhD Candidate, Applied Mathematics and Mathematical Physics** (Aug 2019 - Expected 2026) - Delaware State University, Dover, DE (GPA 3.89)
+- **M.S. Computer and Information Sciences** (Aug 2016 - Jul 2019) - Delaware State University, Dover, DE (GPA 3.9)
+- **M.E. Software Engineering** (2003-2005) - Tsinghua University (清华大学), Beijing, China (GPA 3.3)
+- **B.E. Ocean Engineering; Minor in Computer Science** (1998-2002) - Dalian University of Technology, Dalian, China
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Assistant Research Scientist** (Oct 2023 - Apr 2025) - **Temple University, College of Public Health** (Philadelphia, PA)
+  - Built EMMA: LLM/RAG assistant for postpartum-depression support (LLaMA, ChatGPT, PEFT, Milvus, Neo4j)
+  - Applied Random Forest, XGBoost, SVM to clinical/public-health data for hypertension prediction
+  - Designed EHR + sensor data pipelines; contributed manuscripts and grant proposals
+- **PhD Research Assistant** (Aug 2019 - Present) - **Delaware State University** (Dover, DE)
+  - Biomedical cell segmentation/tracking using CNN, GNN, image processing; LLM-assisted parameter tuning
+  - HPC simulations with MPI, OpenMP, GPU, OSIRIS, GROMACS; collaborations with Princeton, UCLA, LLNL
+- **Graduate Research Assistant** (Aug 2016 - Jul 2019) - **Delaware State University** (Dover, DE)
+  - Built and administered research HPC cluster (320 CPUs, 512 GB RAM)
+  - ML projects in pattern recognition, dimensionality reduction (PCA, LDA, LLE)
+- **Founder and Software Engineer** (Aug 2018 - Jul 2019) - **Good Future LLC** (Dover, DE)
+  - Designed and delivered scalable online education platform with private cloud deployment
+- **Senior Software Engineer** (Aug 2007 - Jul 2016) - **PetroChina Planning & Engineering Institute** (Beijing, China)
+  - ML forecasting models (BP neural network, decision trees) achieving ~90% accuracy for energy planning
+  - Built M/M/C queuing model for CNG vehicle fleet optimization
+- **Project Manager** (Aug 2005 - Jul 2007) - **Chinese Academy of Sciences** (Beijing, China)
+  - Led 5-person team on Sino-German national forest-pest-control information system
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
-
-### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Primary:** Python, PyTorch, TensorFlow, Scikit-learn, Hugging Face; LLMs (LLaMA, ChatGPT), RAG, PEFT; GNN (PyTorch Geometric); computer vision (CNNs, segmentation); biomedical AI
+- **Secondary:** Java, C++, C#, MATLAB, R, SQL; MPI, OpenMP, GPU computing (HPC); Neo4j, Milvus, Pinecone, PostgreSQL, Oracle; Docker, Git, Linux
+- **Domain:** Healthcare AI, clinical NLP, biomedical image analysis, graph machine learning, HPC scientific simulation, enterprise software
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Manuscripts contributed at Temple University (specific titles/venues — complete from Jian's actual publication record)
+- PhD research outputs in biomedical cell tracking / image analysis (add titles and venues)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Researcher-Practitioner hybrid** - bridges academic AI research and industry software engineering; 10+ years industry before returning to PhD
+- **Interdisciplinary integrator** - biomedical AI + graph ML + LLMs + HPC: a coherent story across domains
+- **Strengths:** Technical breadth, cross-cultural collaboration, patient methodology, stakeholder communication (clinicians, faculty, government)
+- **Growth areas:** Production-scale ML deployment, publication velocity at top venues
+- **Thrives in:** Healthcare AI, interdisciplinary research teams, applied research environments, roles with research-to-deployment pipeline
 
-### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+### What Excites Jian
+- LLM/RAG applications for real-world healthcare problems
+- Graph neural networks for biomedical data (cell tracking, molecular analysis)
+- Translating research prototypes into deployed tools that benefit patients or clinicians
+- Cross-disciplinary collaboration — connecting AI/ML with domain experts in medicine and life sciences
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Healthcare AI:** Amazon AWS Health, Microsoft Health AI, Google Health, Tempus AI, Abridge, Flatiron, Philips, GE HealthCare
+- **Clinical NLP / LLM companies:** IBM Research, IQVIA, Nuance (Microsoft), Recursion Pharma, PathAI, Paige.AI
+- **Research labs:** Academic medical centers (Penn Medicine, Johns Hopkins, Mayo Clinic AI), national labs
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Company does not sponsor H-1B (hard requirement — verify before applying)
+- Requires US citizenship or security clearance
+- Pure non-AI software engineering (no ML/research component)
+- Requires relocation without discussion or package
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

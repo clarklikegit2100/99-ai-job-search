@@ -1,0 +1,131 @@
+%% Jian Zhao - Two-page master resume
+%% Compressed from main_example-jian.tex; original preserved unchanged.
+%% Compile with: lualatex -interaction=nonstopmode -halt-on-error main_example-jian-2page.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  pdftitle={Jian Zhao - Resume},
+  pdfpagemode=UseNone,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{needspace}
+
+\name{Jian}{Zhao}
+\address{Philadelphia, PA}{}{}
+\phone[mobile]{302-359-7657}
+\email{zhaojianphd@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jian-zhao-12800616a}{LinkedIn}}
+
+\begin{document}
+\makecvtitle
+
+\vspace{-2pt}
+\small{AI researcher and software engineer with Tsinghua University graduate training, U.S. master's and Ph.D. research, and 10+ years spanning biomedical AI, graph learning, computer vision, LLM applications, HPC, and enterprise systems. Combines interdisciplinary healthcare research with production software engineering, multi-institution collaboration, and hands-on Python and PyTorch development.}
+
+\section{Core Competencies}
+\vspace{-1pt}
+\begin{itemize}
+\item \textbf{Generative AI \& Healthcare NLP}: LLaMA, ChatGPT API, Hugging Face Transformers, PEFT (LoRA/QLoRA), RAG, prompt engineering; Milvus, Pinecone, Neo4j; EMMA postpartum-depression support assistant
+\item \textbf{Deep Learning \& Biomedical Vision}: Python, PyTorch, TensorFlow, Scikit-learn, PyTorch Geometric; CNNs, GNNs, representation learning; microscopy cell segmentation, tracking, and quantification
+\item \textbf{Machine Learning \& Data}: XGBoost, Random Forest, SVM; clinical and public-health analytics, EHR workflows; SQL, PostgreSQL, Oracle, MySQL; Git, Linux, Docker
+\item \textbf{HPC \& Engineering}: MPI, MPI I/O, OpenMP, GPU computing, OSIRIS, GROMACS, LUSTRE, Hadoop; Java, C++, C\#, MATLAB, R; enterprise software architecture and delivery
+\end{itemize}
+
+\section{Professional and Research Experience}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{Oct 2023--Apr 2025}{Assistant Research Scientist}{Temple University, College of Public Health}{Philadelphia, PA}{}{\vspace{1pt}
+\begin{itemize}
+  \item Developed EMMA, an LLM-based assistant for postpartum-depression support using LLaMA/ChatGPT, RAG, PEFT, Milvus, Neo4j, Flowise, Gradio, and Streamlit to connect users with locally relevant resources
+  \item Applied Random Forest, XGBoost, and SVM to ambulatory-visit and public-health data, identifying blood-pressure and A1C monitoring gaps and supporting hypertension-prediction research
+  \item Designed AI and data workflows spanning EHR, environmental sensors, and public-health repositories; contributed manuscripts, grant proposals, technical documentation, and cross-disciplinary research supervision
+\end{itemize}}}
+
+\vspace{2pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2019--Present}{Ph.D. Research Assistant}{Delaware State University}{Dover, DE}{}{\vspace{1pt}
+\begin{itemize}
+  \item Research biomedical cell segmentation, tracking, and quantification using mathematical algorithms, image processing, CNNs, GNNs, and LLM-assisted parameter tuning for microscopy applications
+  \item Developed a rapid-tuning approach for CSTQ parameters supporting reproducible biomedical image-analysis and disease-research workflows
+  \item Conduct large-scale nano-bio spectroscopy and plasma simulations using MPI, OpenMP, GPU computing, OSIRIS, and GROMACS in collaborations with Princeton, UCLA, and Lawrence Livermore National Laboratory
+\end{itemize}}}
+
+\vspace{2pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2016--Jul 2019}{Graduate Research Assistant}{Delaware State University}{Dover, DE}{}{\vspace{1pt}
+\begin{itemize}
+  \item Built and administered an HPC research cluster with 8 compute nodes, 320 CPUs, and 512 GB RAM for nano-bio spectroscopy simulations and data-intensive experiments
+  \item Completed ML projects in pattern recognition and dimensionality reduction (PCA, LDA, LLE), and investigated visible-light access control for wireless insulin-pump security
+\end{itemize}}}
+
+\vspace{2pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2007--Jul 2016}{Senior Software Engineer}{PetroChina Planning \& Engineering Institute}{Beijing, China}{}{\vspace{1pt}
+\begin{itemize}
+  \item Developed BP neural-network and decision-tree models for natural-gas pipeline energy forecasting, achieving approximately 90\% accuracy for strategic planning analyses
+  \item Built an M/M/C vehicle-allocation model and delivered analytics and enterprise software using MATLAB, Java, SQL, Weka, and statistical modeling
+\end{itemize}}}
+
+\vspace{2pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2005--Jul 2007}{Project Manager}{Chinese Academy of Sciences}{Beijing, China}{}{\vspace{1pt}
+\begin{itemize}
+  \item Led a five-person Sino-German national forest-pest-control information-system project, delivering a scalable browser/server application for the National Forestry program
+  \item Modernized Forest News from ASP to JSP and migrated Access to Oracle 9i using Java, Spring, Hibernate, Struts, JUnit, and GIS technologies
+\end{itemize}}}
+
+\end{itemize}
+
+
+\section{Education}
+\vspace{0pt}
+\begin{itemize}
+\needspace{4\baselineskip}
+\item{\cventry{Aug 2019--May 2027}{Ph.D. Candidate, Applied Mathematics and Mathematical Physics}{Delaware State University}{Dover, DE}{}{GPA: 3.89; research in biomedical AI, graph neural networks, and HPC simulation.}}
+\vspace{1pt}
+\item{\cventry{Aug 2016--Jul 2019}{M.S., Computer and Information Sciences}{Delaware State University}{Dover, DE}{}{GPA: 3.9; machine learning, pattern recognition, and HPC.}}
+\vspace{1pt}
+\item{\cventry{2003--2005}{M.E., Software Engineering}{Tsinghua University}{Beijing, China}{}{Software architecture, enterprise systems, and project management.}}
+\vspace{1pt}
+\item{\cventry{1998--2002}{B.E., Ocean Engineering; Minor in Computer Science}{Dalian University of Technology}{Dalian, China}{}{Engineering, applied mathematics, and computer science.}}
+\end{itemize}
+
+\section{Selected Publications}
+\vspace{0pt}
+\begin{itemize}
+\item J.~Zhao, K.~Kong, X.~Hei, Y.~Tu, X.~Du, ``A Visible Light Channel based Access Control Scheme for Wireless Insulin Pump Systems,'' \textit{Proc.\ IEEE ICC}, 2018.
+\item J.~Zhao, L.~Lu, Z.~Tyler, K.~Kong, Q.~Lu, J.~Ren, ``Simulated Raman Spectral Analysis of Organic Molecules,'' \textit{Proc.\ SPIE} 10526, 105262I, 2018. doi:~10.1117/12.2291176
+\item A.~Bhat, J.~Zhao, T.~Cooks, J.~Ren, Q.~Lu, ``Dark-field Microscopic Study of the Interactions between Gold/Silver Nanoparticles and Giant Unilamellar Vesicles,'' \textit{Proc.\ SPIE} 10506, 105061C, 2018. doi:~10.1117/12.2290828
+\item Co-translator, W.~van~der~Aalst \& K.~van~Hee, \textit{Workflow Management: Models, Methods, and Systems} (Chinese ed.), Tsinghua Univ.\ Press, 2004. (Supervised by Prof.\ Jianmin Wang; co-translated with L.~Wen et al.)
+\item Additional papers in workflow management (colored Petri nets, Tsinghua 2004--2005) and energy-pipeline analytics (PetroChina 2007--2016); full list available on request.
+\end{itemize}
+
+\section{Additional}
+\vspace{0pt}
+\begin{itemize}
+\item \textbf{Languages}: Chinese/Mandarin (native); English (professional working proficiency).
+\item \textbf{Work Authorization}: H-1B transfer available.
+\item \textbf{Honors \& Certifications}:
+  \begin{itemize}
+    \item FIRST LEGO League (FLL) Certified Judge: Judge Training and Robot Design Judge Training (March 2020)
+    \item CITI Program, Responsible Conduct of Research for Engineers, Delaware State University (Jan.\ 2018)
+    \item Vice President, Science \& Technology Association, Tsinghua University School of Software (2003--2005)
+    \item Top 20\% academic ranking, M.E.\ program, Tsinghua University
+  \end{itemize}
+\item \textbf{References}: Prof.\ Jun Ren, Delaware State University (\href{mailto:jren@desu.edu}{jren@desu.edu}); Dr.\ Xiali (Sharon) Hei, Alfred and Helen M.\ Lamson Endowed Professor in Computer Science, University of Louisiana at Lafayette (\href{mailto:xiali.hei@louisiana.edu}{xiali.hei@louisiana.edu}; +1-337-482-1037). Additional references available on request.
+\end{itemize}
+
+\end{document}

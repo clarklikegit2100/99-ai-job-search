@@ -1,0 +1,100 @@
+                                       Jian Zhao Philadelphia, PA
+                       MOBILE-ANDROID-ALT 302-359-7657 • 🖂 zhaojianphd@gmail.com • LinkedIn
+AI researcher and software engineer with Tsinghua University graduate training, U.S. master’s and Ph.D. research,
+and 10+ years spanning biomedical AI, graph learning, computer vision, LLM applications, HPC, and enterprise
+systems. Combines interdisciplinary healthcare research with production software engineering, multi-institution
+collaboration, and hands-on Python and PyTorch development.
+
+Core Competencies
+🟤 Generative AI & Healthcare NLP: LLaMA, ChatGPT API, Hugging Face Transformers, PEFT (LoRA/QLoRA),
+    RAG, prompt engineering; Milvus, Pinecone, Neo4j; EMMA postpartum-depression support assistant
+🟤 Deep Learning & Biomedical Vision: Python, PyTorch, TensorFlow, Scikit-learn, PyTorch Geometric; CNNs,
+    GNNs, representation learning; microscopy cell segmentation, tracking, and quantification
+🟤 Machine Learning & Data: XGBoost, Random Forest, SVM; clinical and public-health analytics, EHR workflows;
+    SQL, PostgreSQL, Oracle, MySQL; Git, Linux, Docker
+🟤 HPC & Engineering: MPI, MPI I/O, OpenMP, GPU computing, OSIRIS, GROMACS, LUSTRE, Hadoop; Java,
+    C++, C#, MATLAB, R; enterprise software architecture and delivery
+
+Professional and Research Experience
+    Temple University, College of Public Health                                                     Philadelphia, PA
+🟤
+    Assistant Research Scientist                                                                  Oct 2023–Apr 2025
+    - Developed EMMA, an LLM-based assistant for postpartum-depression support using LLaMA/ChatGPT, RAG,
+      PEFT, Milvus, Neo4j, Flowise, Gradio, and Streamlit to connect users with locally relevant resources
+    - Applied Random Forest, XGBoost, and SVM to ambulatory-visit and public-health data, identifying blood-pressure
+      and A1C monitoring gaps and supporting hypertension-prediction research
+    - Designed AI and data workflows spanning EHR, environmental sensors, and public-health repositories; contributed
+      manuscripts, grant proposals, technical documentation, and cross-disciplinary research supervision
+    Delaware State University                                                                         Dover, DE
+🟤
+    Ph.D. Research Assistant                                                                    Aug 2019–Present
+    - Research biomedical cell segmentation, tracking, and quantification using mathematical algorithms, image
+      processing, CNNs, GNNs, and LLM-assisted parameter tuning for microscopy applications
+    - Developed a rapid-tuning approach for CSTQ parameters supporting reproducible biomedical image-analysis and
+      disease-research workflows
+    - Conduct large-scale nano-bio spectroscopy and plasma simulations using MPI, OpenMP, GPU computing, OSIRIS,
+      and GROMACS in collaborations with Princeton, UCLA, and Lawrence Livermore National Laboratory
+    Delaware State University                                                                        Dover, DE
+🟤
+    Graduate Research Assistant                                                                Aug 2016–Jul 2019
+    - Built and administered an HPC research cluster with 8 compute nodes, 320 CPUs, and 512 GB RAM for nano-bio
+      spectroscopy simulations and data-intensive experiments
+    - Completed ML projects in pattern recognition and dimensionality reduction (PCA, LDA, LLE), and investigated
+      visible-light access control for wireless insulin-pump security
+    PetroChina Planning & Engineering Institute                                                     Beijing, China
+🟤
+    Senior Software Engineer                                                                     Aug 2007–Jul 2016
+    - Developed BP neural-network and decision-tree models for natural-gas pipeline energy forecasting, achieving
+      approximately 90% accuracy for strategic planning analyses
+    - Built an M/M/C vehicle-allocation model and delivered analytics and enterprise software using MATLAB, Java,
+      SQL, Weka, and statistical modeling
+
+
+
+
+                                                                                                              1/2
+    Chinese Academy of Sciences                                                                    Beijing, China
+🟤
+    Project Manager                                                                            Aug 2005–Jul 2007
+    - Led a five-person Sino-German national forest-pest-control information-system project, delivering a scalable
+      browser/server application for the National Forestry program
+    - Modernized Forest News from ASP to JSP and migrated Access to Oracle 9i using Java, Spring, Hibernate, Struts,
+      JUnit, and GIS technologies
+
+Selected Projects
+🟤 EMMA Healthcare Assistant: LLM/RAG application for postpartum-depression support using LLaMA, ChatGPT,
+    PEFT, Milvus, Neo4j, Hugging Face, Flowise, Gradio, and Streamlit.
+🟤 Biomedical Cell Tracking: CNN/GNN and image-processing research for microscopy cell segmentation, tracking,
+    quantification, and reproducible CSTQ parameter tuning.
+🟤 Ambulatory Health Analytics: Patient-visit analysis and ensemble ML modeling to identify blood-pressure and
+    A1C monitoring gaps and study hypertension prediction.
+🟤 HPC Nano-Bio Simulation: Parallel spectroscopy and plasma simulations using MPI, OpenMP, GPU computing,
+    OSIRIS, GROMACS, LUSTRE, and Hadoop.
+
+Education
+  Delaware State University                                                                          Dover, DE
+🟤
+  Ph.D. Candidate, Applied Mathematics and Mathematical Physics                           Aug 2019–Expected 2026
+  GPA: 3.89; research in biomedical AI, graph neural networks, and HPC simulation.
+  Delaware State University                                                                           Dover, DE
+🟤
+  M.S., Computer and Information Sciences                                                       Aug 2016–Jul 2019
+  GPA: 3.9; machine learning, pattern recognition, and HPC.
+  Tsinghua University                                                                               Beijing, China
+🟤
+  M.E., Software Engineering                                                                             2003–2005
+  Software architecture, enterprise systems, and project management.
+  Dalian University of Technology                                                                    Dalian, China
+🟤
+  B.E., Ocean Engineering; Minor in Computer Science                                                    1998–2002
+  Engineering, applied mathematics, and computer science.
+
+Additional
+🟤 Languages: Chinese/Mandarin (native); English (professional working proficiency).        Work Authorization:
+    H-1B transfer available.
+
+
+
+
+                                                                                                             2/2
+

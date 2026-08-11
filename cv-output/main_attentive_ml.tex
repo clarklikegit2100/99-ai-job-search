@@ -1,0 +1,174 @@
+%% Alex Rivera — CV for Attentive, Staff Software Engineer, Machine Learning
+%% Compile with: lualatex -interaction=nonstopmode main_attentive_ml.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Alex Rivera - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{needspace}
+\usepackage{import}
+
+\name{Alex}{Rivera}
+\address{New York, NY 10001}{}{}
+\phone[mobile]{+1 (212) 555-0147}
+\email{alex.rivera.ds@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/alexrivera-ds}{LinkedIn}, \href{https://github.com/alexrivera-ds}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Senior data scientist with 6 years of industry experience building and shipping production-grade ML systems at consumer scale. At Spotify, led the redesign of the podcast recommendation system serving 200M+ listeners (18\% CTR lift), built the A/B testing framework handling 50M+ concurrent experiments per day, and rebuilt the real-time feature pipelines (latency 800ms to 120ms). Deep expertise in recommendation systems, NLP, and behavioral personalization; consistent track record of measurable business outcomes, zero-regression system migrations, and proactive quality enforcement at every layer of the stack.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Production ML Systems}: PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers; two-tower retrieval models, real-time re-ranking, gradient-boosted trees; model development, validation, and deployment at 200M+ user scale
+
+\item \textbf{Recommendation \& Personalization}: Collaborative filtering, content-based ranking, session-aware models, behavioral propensity modeling; real-time feature engineering (PySpark + Apache Kafka); large-scale A/B testing framework design and ownership; send-time optimization and engagement scoring
+
+\item \textbf{Data Engineering \& MLOps}: PySpark, Apache Kafka, Airflow, dbt, Databricks, MLflow (tracking, registry, serving); Docker, Kubernetes/AWS EKS; AWS (S3, SageMaker, Lambda, EMR); PostgreSQL, Redis
+
+\item \textbf{Languages \& Databases}: Python (expert), SQL/PostgreSQL/BigQuery/Snowflake (expert), Scala (intermediate); Pandas, NumPy, FastAPI
+
+\item \textbf{Cross-Functional Leadership}: Led cross-functional ML projects spanning engineering, product, and analytics; A/B testing framework adopted org-wide across 6 squads; mentored 3 data scientists to senior-level promotion within 12 months; drove long-term quality advocacy through MLflow standardisation
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{June 2022--Present}{Senior Data Scientist}{Spotify}{New York, NY}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led ML redesign of the personalized podcast recommendation system, serving 200M+ listeners globally; two-tower neural retrieval model with real-time re-ranking drove 18\% lift in episode CTR; owned the full delivery lifecycle from research through production deployment and ongoing reliability
+    \item Rebuilt real-time feature engineering pipelines (PySpark + Apache Kafka), cutting inference latency from 800ms to 120ms and p99 tail latency by 60\%; automated large-scale feature computation and model scoring with zero-regression migration
+    \item Designed and shipped a centralized A/B testing framework handling 50M+ concurrent experiments per day, replacing manual experiment coordination across 6 squads; setup time dropped from $\sim$2 days to $\sim$2 hours
+    \item Introduced MLflow for experiment tracking, model registry, and model serving across the recommendations chapter; adopted by 40+ data scientists within 3 months; registry-enforced versioning reduced model regression incidents and enabled safe champion/challenger rollouts
+    \item Mentored 3 junior data scientists through structured 90-day onboarding and weekly 1:1s; 2 promoted within 12 months
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{August 2020--May 2022}{Data Scientist}{Goldman Sachs}{New York, NY}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed a FinBERT-based NLP model for earnings-call sentiment classification across 5,000+ public companies; deployed as Bloomberg Terminal plugin used daily by 200+ portfolio managers
+    \item Built automated anomaly detection for transaction fraud (isolation forest + autoencoder ensemble), reducing false-positive alerts by 32\% with no regression in true-positive rate; validated via 4-week shadow-mode trial before cutover, a model deployment practice now carried into every production system
+    \item Engineered scalable automated pipelines for large-scale alternative data analysis (satellite imagery, web-scraping NLP) contributing to a \$2B quantitative fund strategy; presented findings bi-weekly to senior stakeholders across engineering and portfolio management
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{May--August 2019}{Data Science Intern}{Airbnb}{San Francisco, CA}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built a gradient-boosted tree pricing optimisation model for Airbnb Experiences, deployed to 10,000+ hosts in the US and Canada; increased average booking value by 8\%; model incorporated into the production pricing engine post-internship
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{PodcastScope} (2023): Open-source podcast analytics dashboard (FastAPI + React + PostgreSQL). 400+ GitHub stars.
+\item \textbf{FinSentiment} (2021): Public NLP pipeline for earnings-call sentiment. 600+ GitHub stars; cited in two peer-reviewed papers.
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2018--2020}{M.S. Computer Science (Machine Learning track)}{Columbia University}{New York, NY}{}{\vspace{1pt}
+Thesis: ``Attention-Based Anomaly Detection in Multivariate Time Series.'' Focus areas: deep learning, NLP, probabilistic graphical models.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{2014--2018}{B.S. Statistics}{University of Michigan}{Ann Arbor, MI}{}{\vspace{1pt}
+Key topics: statistical inference, linear models, algorithms. Dean's List 2016--2018.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English (native), Spanish (conversational).
+\end{itemize}
+
+% ============================================================
+%     PUBLICATIONS
+% ============================================================
+
+\section{Publications}
+\vspace{1pt}
+\begin{itemize}
+\item Rivera, A., \& Chen, L. (2020). ``Attention-Based Anomaly Detection in Multivariate Time Series.'' \textit{Columbia University M.S. Thesis.}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{1st Place} -- NYC Data Science Hackathon (2022), sponsored by Two Sigma.}
+\item{\textbf{Dean's List} -- University of Michigan (2016, 2017, 2018).}
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Available upon request.
+\end{itemize}
+
+\end{document}

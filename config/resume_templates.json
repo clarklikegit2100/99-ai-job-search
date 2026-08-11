@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "templates": [
+    {
+      "id": "jian-moderncv",
+      "name": "Jian ModernCV",
+      "type": "latex",
+      "source": "cv/main_example-jian.tex",
+      "compile_command": "lualatex -interaction=nonstopmode -halt-on-error <file>.tex",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "moderncv banking, blue, single column",
+      "auto_tags": [
+        "research scientist",
+        "applied scientist",
+        "machine learning engineer",
+        "biomedical ai",
+        "healthcare ai",
+        "nlp",
+        "llm",
+        "computer vision",
+        "graph machine learning"
+      ],
+      "active": true
+    },
+    {
+      "id": "family-a-ai-research",
+      "name": "Family A - AI Research Scientist",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_A_AI_RESEARCH_SCIENTIST_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["ai research scientist", "llm", "graph neural network", "biomedical ai"],
+      "active": true
+    },
+    {
+      "id": "family-b-ml-engineer",
+      "name": "Family B - Machine Learning Engineer",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_B_MACHINE_LEARNING_ENGINEER_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["machine learning engineer", "mlops", "deployment", "data pipeline"],
+      "active": true
+    },
+    {
+      "id": "family-c-research-engineer",
+      "name": "Family C - Research Engineer",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_C_RESEARCH_ENGINEER_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["research engineer", "software engineer", "research software"],
+      "active": true
+    },
+    {
+      "id": "family-d-biomedical-ai",
+      "name": "Family D - Biomedical AI Scientist",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_D_BIOMEDICAL_AI_SCIENTIST_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["biomedical ai", "healthcare ai", "clinical ai", "medical imaging"],
+      "active": true
+    },
+    {
+      "id": "family-e-computer-vision",
+      "name": "Family E - Computer Vision Engineer",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_E_COMPUTER_VISION_ENGINEER_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["computer vision", "image processing", "segmentation", "object detection"],
+      "active": true
+    },
+    {
+      "id": "family-f-graph-ml",
+      "name": "Family F - Graph Machine Learning Scientist",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_F_GRAPH_MACHINE_LEARNING_SCIENTIST_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["graph machine learning", "graph neural network", "gnn", "representation learning"],
+      "active": true
+    },
+    {
+      "id": "family-g-applied-scientist",
+      "name": "Family G - Applied Scientist / AI Platform",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_G_APPLIED_SCIENTIST_AI_PLATFORM_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["applied scientist", "ai platform", "machine learning platform", "generative ai"],
+      "active": true
+    },
+    {
+      "id": "family-h-senior-ai",
+      "name": "Family H - Senior AI Engineer / AI Research",
+      "type": "docx",
+      "source": "../jz-302-Resume/Output/Resume/Resume_Family_A-H/Resume_H_SENIOR_AI_ENGINEER_AI_RESEARCH_EN.docx",
+      "expected_pages": 2,
+      "language": "en",
+      "style": "compact Word, navy and teal, single column",
+      "auto_tags": ["senior ai engineer", "senior machine learning engineer", "technical lead", "ai research"],
+      "active": true
+    }
+  ]
+}

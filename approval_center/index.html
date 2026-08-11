@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Job Application Studio</title>
+  <meta name="description" content="Local candidate-controlled resume approval center">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Phase 2 · local only</p>
+      <h1>AI Job Application Studio</h1>
+    </div>
+    <div class="safety"><span></span>No submission capability</div>
+  </header>
+
+  <main class="shell">
+    <aside class="queue" aria-label="Application queue">
+      <div class="queue-head">
+        <div>
+          <p class="eyebrow">Review queue</p>
+          <h2>Applications</h2>
+        </div>
+        <button id="refresh" class="icon-button" type="button" aria-label="Refresh applications">↻</button>
+      </div>
+      <button id="new-application" class="new-application" type="button">+ New application</button>
+      <div id="application-list" class="application-list" aria-live="polite"></div>
+    </aside>
+
+    <section id="workspace" class="workspace" aria-live="polite">
+      <div class="empty-state">
+        <p class="eyebrow">Candidate-controlled workflow</p>
+        <h2>Select an application package</h2>
+        <p>Review its template, generated artifacts, hashes, and approval status. Nothing here can submit a job application.</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="decision-dialog">
+    <form method="dialog" id="decision-form">
+      <div class="dialog-head">
+        <div>
+          <p class="eyebrow" id="dialog-eyebrow">Decision</p>
+          <h2 id="dialog-title">Review decision</h2>
+        </div>
+        <button value="cancel" class="icon-button" aria-label="Close">×</button>
+      </div>
+      <p id="dialog-copy"></p>
+      <label id="decision-label" for="decision-input">Instructions</label>
+      <textarea id="decision-input" rows="4"></textarea>
+      <div class="dialog-actions">
+        <button value="cancel" class="secondary">Cancel</button>
+        <button id="decision-submit" value="default" class="primary">Confirm</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

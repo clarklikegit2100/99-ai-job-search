@@ -1,0 +1,77 @@
+# Self-hosted Reactive Resume
+# Usage: docker compose up -d
+# Then open http://localhost:3000, create account, and import jian-zhao.json
+#
+# To change resume style without re-importing:
+#   Edit jian-zhao.json → metadata.template → one of:
+#   rhyhorn | kakuna | bronzor | chikorita | onyx | pikachu | gengar | ditto
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: resume
+      POSTGRES_USER: resume
+      POSTGRES_PASSWORD: resume_local
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    command: server /data
+    environment:
+      MINIO_ROOT_USER: minio_admin
+      MINIO_ROOT_PASSWORD: minio_local_secret
+    volumes:
+      - minio_data:/data
+
+  chrome:
+    image: browserless/chrome:latest
+    restart: unless-stopped
+    environment:
+      TIMEOUT: 10000
+      CONCURRENT: 10
+      TOKEN: chrome_token_local
+      EXIT_ON_HEALTH_FAILURE: "true"
+
+  reactive-resume:
+    image: amruthpillai/reactive-resume:latest
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+      - minio
+      - chrome
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+      # v4+ renamed PUBLIC_URL → APP_URL and merged token secrets → AUTH_SECRET
+      APP_URL: http://localhost:3000
+      AUTH_SECRET: local_auth_secret_change_me_in_production
+      # Required by v5 to encrypt AI-provider API keys stored in PostgreSQL.
+      # Generated locally by setup-local-secrets.ps1; never commit this value.
+      ENCRYPTION_SECRET: ${ENCRYPTION_SECRET:?Run setup-local-secrets.ps1 first}
+      CHROME_TOKEN: chrome_token_local
+      CHROME_URL: ws://chrome:3000
+      DATABASE_URL: postgresql://resume:resume_local@postgres:5432/resume
+      MAIL_FROM: noreply@localhost
+      STORAGE_ENDPOINT: minio
+      STORAGE_PORT: 9000
+      STORAGE_REGION: us-east-1
+      STORAGE_BUCKET: reactive-resume
+      STORAGE_ACCESS_KEY: minio_admin
+      STORAGE_SECRET_KEY: minio_local_secret
+      STORAGE_USE_SSL: "false"
+      STORAGE_URL: http://localhost:9000/reactive-resume
+      # Optional: AI provider for "Improve with AI" features
+      # Uncomment one block and add your key:
+      # OPENAI_API_KEY: sk-...
+      # OPENAI_BASE_URL: https://api.openai.com/v1   # optional custom endpoint
+      # ANTHROPIC_API_KEY: sk-ant-...
+
+volumes:
+  postgres_data:
+  minio_data:

@@ -95,3 +95,5 @@ upskill/*.md
 
 # Brainstorm mockups (superpowers visual companion) - never ship
 .superpowers/
+# Local Reactive Resume secrets (encrypts saved AI-provider API keys)
+cv-output/reactive-resume/.env

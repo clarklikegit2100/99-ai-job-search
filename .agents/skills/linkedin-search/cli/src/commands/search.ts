@@ -26,6 +26,8 @@ function buildUrl(opts: SearchOpts): string {
   if (tpr) params.set("f_TPR", tpr)
   const wt = workTypeFlag(opts.remote)
   if (wt) params.set("f_WT", wt)
+  // Sort by date (DD = date descending) so freshest postings appear first.
+  params.set("sortBy", "DD")
   params.set("start", String((opts.page - 1) * 10))
   return `${SEARCH_URL}?${params.toString()}`
 }
