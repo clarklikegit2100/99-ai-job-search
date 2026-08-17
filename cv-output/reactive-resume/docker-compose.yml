@@ -37,7 +37,10 @@ services:
       EXIT_ON_HEALTH_FAILURE: "true"
 
   reactive-resume:
-    image: amruthpillai/reactive-resume:latest
+    image: reactive-resume-with-page-numbers:5.2.6
+    build:
+      context: .
+      dockerfile: Dockerfile.page-numbers
     restart: unless-stopped
     ports:
       - "3000:3000"

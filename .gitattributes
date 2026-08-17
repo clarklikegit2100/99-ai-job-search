@@ -1,0 +1,2 @@
+build-resume.sh text eol=lf
+build-resume.bat text eol=crlf

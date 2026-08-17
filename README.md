@@ -70,6 +70,36 @@ The framework encodes career guidance best practices, including structured evalu
 
 ## Quick start
 
+### Build the Jian Zhao LaTeX resume
+
+The source resume is `cv-output/main_example-jian.tex`. It must be compiled
+with **LuaLaTeX**; do not use pdfLaTeX. The build runs twice so links, page
+references, and PDF metadata are finalized.
+
+Windows (PowerShell, Command Prompt, or double-click in File Explorer):
+
+```powershell
+.\build-resume.bat
+```
+
+Linux, macOS, WSL, or Git Bash:
+
+```bash
+chmod +x build-resume.sh   # required only the first time
+./build-resume.sh
+```
+
+The generated file is `cv-output/main_example-jian.pdf`. Both scripts can be
+run from any working directory because they resolve paths relative to their own
+location. They stop immediately if `lualatex` is missing or compilation fails.
+
+Manual equivalent, run from the repository root:
+
+```bash
+lualatex --interaction=nonstopmode --halt-on-error --output-directory=cv-output cv-output/main_example-jian.tex
+lualatex --interaction=nonstopmode --halt-on-error --output-directory=cv-output cv-output/main_example-jian.tex
+```
+
 ### 1. Fork and clone
 
 ```bash
